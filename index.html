@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="MettaHolistica te acompaña a transformar tu bienestar integral con enfoque en mente, cuerpo y emociones."
+    />
+    <title>MettaHolistica | Bienestar integral</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Nunito+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+    <header class="site-header" id="inicio">
+      <div class="container nav-wrap">
+        <a class="brand" href="#inicio" aria-label="Ir al inicio de MettaHolistica">
+          <span class="brand__name">MettaHolistica</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+          <span class="sr-only">Abrir menú</span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" id="nav-menu" aria-label="Navegación principal">
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#conoce">Conoce Mettaholistica</a></li>
+            <li><a href="#contenido">Contenido</a></li>
+            <li><a href="#contacto">Contáctanos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero__layout">
+          <div class="hero__copy">
+            <p class="eyebrow">Bienestar integral</p>
+            <h1 id="hero-title">Descubre quién eres y transforma tu vida.</h1>
+            <p>
+              En MettaHolistica te guiamos para liberar tu potencial interno con herramientas de
+              autoconocimiento, nutrición consciente y gestión emocional.
+            </p>
+            <blockquote>
+              “Ama, perdona, inspira y observa con todo tu cuerpo”.
+            </blockquote>
+            <a class="btn btn--primary" href="#contacto">Contáctame</a>
+          </div>
+          <div class="hero__visual" role="img" aria-label="Imagen inspiracional de bienestar"></div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="conoce" aria-labelledby="conoce-title">
+        <div class="container section__grid">
+          <article>
+            <p class="eyebrow">Conoce MettaHolistica</p>
+            <h2 id="conoce-title">¿Qué es MettaHolistica?</h2>
+            <p>
+              Es una propuesta de acompañamiento personal para personas que buscan un cambio real en
+              su bienestar físico, mental y emocional.
+            </p>
+            <p>
+              A través de una metodología cálida y práctica, se trabaja desde tu historia para
+              ayudarte a comprender patrones, integrar nuevos hábitos y vivir con mayor armonía.
+            </p>
+          </article>
+          <aside class="feature-card" aria-label="Servicios destacados">
+            <h3>Áreas de acompañamiento</h3>
+            <ul>
+              <li>Life coaching</li>
+              <li>Lenguaje corporal y no verbal</li>
+              <li>Neurocoaching y PNL</li>
+              <li>Meditación y hábitos conscientes</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="contenido" aria-labelledby="contenido-title">
+        <div class="container">
+          <p class="eyebrow">Contenido principal</p>
+          <h2 id="contenido-title">Un enfoque holístico para tu crecimiento</h2>
+
+          <div class="cards">
+            <article class="card">
+              <h3>Detox físico y neuroemocional</h3>
+              <p>
+                Sesiones enfocadas en liberar sobrecarga emocional y hábitos que afectan tu energía
+                diaria.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Transforma tus hábitos</h3>
+              <p>
+                Diseñamos una estrategia personalizada para mejorar alimentación, descanso y manejo
+                del estrés.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Gestión asertiva de vínculos</h3>
+              <p>
+                Aprende a escuchar tu cuerpo, comunicar con claridad y construir relaciones sanas.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--contact" id="contacto" aria-labelledby="contacto-title">
+        <div class="container contact">
+          <div>
+            <p class="eyebrow">¡Conecta'T!</p>
+            <h2 id="contacto-title">Será un gusto acompañarte en este proceso</h2>
+            <p>Escríbenos y conversemos sobre el siguiente paso para tu bienestar.</p>
+            <ul class="contact-list">
+              <li><strong>Tel:</strong> +1 (801) 888-9218</li>
+              <li><strong>Email:</strong> rl@mettaholistica.com</li>
+              <li><strong>Ubicación:</strong> Atención online y presencial</li>
+            </ul>
+          </div>
+
+          <form class="contact-form" novalidate>
+            <label>
+              Nombre completo
+              <input type="text" name="nombre" autocomplete="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" autocomplete="email" required />
+            </label>
+            <label>
+              Teléfono
+              <input type="tel" name="telefono" autocomplete="tel" />
+            </label>
+            <label>
+              Mensaje
+              <textarea name="mensaje" rows="4" required></textarea>
+            </label>
+            <button class="btn btn--primary" type="submit">Enviar</button>
+            <p class="form-msg" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p class="brand__name">MettaHolistica</p>
+        <p>Ama, perdona, inspira y observa con todo tu cuerpo.</p>
+        <p>© <span id="year"></span> por Rosario López.</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
