@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Oscar Campos\\\\Documents\\\\Claude Code VSCode\" -Force)",
+      "Bash(Select-Object Name, Mode)",
+      "WebFetch(domain:oscarcm321.wixsite.com)",
+      "Bash(node -e ' *)"
+    ]
+  }
+}
